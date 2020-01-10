@@ -63,6 +63,8 @@ src/config
 .vscode/
 /.vscode
 
+package-lock.json
+
 dist/*
 
 h5_new.zip
