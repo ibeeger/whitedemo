@@ -13,6 +13,6 @@ class VideoWare extends Component {
 }
 
 VideoWare.protocol = "video"
-VideoWare.backgroundProps = {url: "//localhost/file/a.mp4"};
+VideoWare.backgroundProps = {url: "//192.168.1.146/file/a.mp4"};
 
 export default VideoWare

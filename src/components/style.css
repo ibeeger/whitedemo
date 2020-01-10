@@ -8,3 +8,22 @@
 iframe{
   pointer-events: auto;
 }
+
+.videlist{
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  list-style: none;
+}
+.videlist li video{
+  background-color: #000; 
+  width: 120px;
+  height: 80px;
+  object-Fit:'fill'
+}
+.videlist li{float: left; width: 120px; height: 110px; position: relative;}
+.videlist li span.tip{position: absolute; left:0; top:0; color: #fff; background-color: #0a0;;}
+.videlist li span{ cursor: pointer;}

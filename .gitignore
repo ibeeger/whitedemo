@@ -57,6 +57,8 @@ publish/libs/js/tk/tksdkdebug.js
 #webstorm
 .idea/
 
+src/config
+
 #vscode
 .vscode/
 /.vscode

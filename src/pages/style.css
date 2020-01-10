@@ -1,0 +1,3 @@
+.replaylist{ width: 200px; height: 160px;}
+.replaylist video{width: 200px; height:160px; visibility: visible;}
+#playlist{position: absolute; left: 0; top: 0; width: 100%; height: 100%;}

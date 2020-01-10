@@ -11,8 +11,9 @@ export const createRoom = () => {
       "content-type": "application/json",
     },
     body: JSON.stringify({
+      mode: 'historied',
       name: new Date().toLocaleDateString() + "房间",
-      limit: 100, // 房间人数限制
+      limit: 32, // 房间人数限制
     }),
   };
   return fetch(url, requestInit).then(res => res.json());
